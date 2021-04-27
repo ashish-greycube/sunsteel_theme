@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sunsteel_theme *.css
+recursive-include sunsteel_theme *.csv
+recursive-include sunsteel_theme *.html
+recursive-include sunsteel_theme *.ico
+recursive-include sunsteel_theme *.js
+recursive-include sunsteel_theme *.json
+recursive-include sunsteel_theme *.md
+recursive-include sunsteel_theme *.png
+recursive-include sunsteel_theme *.py
+recursive-include sunsteel_theme *.svg
+recursive-include sunsteel_theme *.txt
+recursive-exclude sunsteel_theme *.pyc
