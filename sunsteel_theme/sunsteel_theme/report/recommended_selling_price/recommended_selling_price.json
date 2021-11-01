@@ -1,6 +1,6 @@
 {
  "add_total_row": 0,
- "creation": "2021-10-30 06:45:26.384996",
+ "creation": "2021-11-01 05:15:26.872850",
  "disable_prepared_report": 0,
  "disabled": 0,
  "docstatus": 0,
@@ -8,14 +8,14 @@
  "idx": 0,
  "is_standard": "Yes",
  "letter_head": "letter-head",
- "modified": "2021-10-30 06:46:25.375652",
+ "modified": "2021-11-01 05:15:26.872850",
  "modified_by": "Administrator",
  "module": "Sunsteel Theme",
- "name": "Item Rate Suggestion",
+ "name": "Recommended Selling Price",
  "owner": "Administrator",
  "prepared_report": 0,
  "ref_doctype": "Item",
- "report_name": "Item Rate Suggestion",
+ "report_name": "Recommended Selling Price",
  "report_type": "Script Report",
  "roles": [
   {

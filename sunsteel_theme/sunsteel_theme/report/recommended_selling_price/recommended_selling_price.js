@@ -2,7 +2,7 @@
 // For license information, please see license.txt
 /* eslint-disable */
 
-frappe.query_reports["Item Rate Suggestion"] = {
+frappe.query_reports["Recommended Selling Price"] = {
 	"filters": [
 
 	]
