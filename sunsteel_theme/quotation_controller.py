@@ -4,7 +4,7 @@ from frappe.utils import flt
 def update_recommended_rate(self,method):
 	for item in self.items:
 		markup_margin_cf=frappe.db.get_value('Item', item.item_code, 'markup_margin_cf')
-		if markup_margin_cf and markup_margin_cf>0:
+		if markup_margin_cf and markup_margin_cf>=0:
 			default_bom=frappe.db.get_value('Item', item.item_code, 'default_bom')
 			
 			if default_bom:
