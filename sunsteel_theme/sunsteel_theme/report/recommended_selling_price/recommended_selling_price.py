@@ -68,7 +68,7 @@ def get_data(filters):
 	item.default_bom,
 	bom.total_cost,
 	item.markup_margin_cf,
-	(bom.total_cost + (bom.total_cost * item.markup_margin_cf ) * 100 ) as recommend_rate_cf 
+	(bom.total_cost + (bom.total_cost * (item.markup_margin_cf / 100 ))) as recommend_rate_cf 
 	from `tabItem` as item 
 	left outer join `tabBOM` as bom 
 	on item.default_bom =bom.name""",as_dict=True)		
